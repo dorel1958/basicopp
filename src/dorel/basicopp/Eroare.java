@@ -10,10 +10,10 @@ public class Eroare {
     TextWriter tw;
     boolean eCorect;
     private final String numeFisMesaje;
-    String info;
-    boolean verbose = false;
+    String info;  // string cu informatii preluate de la un nivel superior de afisat in proceduri apelate
+    boolean verbose = false;  // daca scrie sau nu in fereastra Output
     public boolean tempoCorect;  // utilizat pentru a vedea daca sunt erori pe portiuni de program
-    boolean showMessageCorect = true;
+    boolean showMessageCorect = true;  // utilizat pentru afisa sau nu fereastra cu 'Corect' la final
 
     public Eroare() {
         numeFisMesaje = "Erori.txt";
