@@ -15,7 +15,7 @@ public class MyString {
             return strLocal;
         }
     }
-    
+
     public static String faraCarRom(String stringul) {
         String str;
         if (stringul == null) {
@@ -45,7 +45,6 @@ public class MyString {
         return str;
     }
 
-    
     public static String carRomMondo(String stringul) {
         String str;
         if (stringul == null) {

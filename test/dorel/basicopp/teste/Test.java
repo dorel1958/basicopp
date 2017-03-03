@@ -1,5 +1,6 @@
 package dorel.basicopp.teste;
 
+import dorel.basicopp.datatypes.Numere;
 import dorel.basicopp.print.ContentHelper;
 import dorel.basicopp.print.PlansaPrint;
 import dorel.basicopp.print.Print;
@@ -84,15 +85,33 @@ public class Test extends JFrame implements ActionListener {
                 //print.tipareste(plansa, print.getPageFormatA4());
                 break;
             case "Executa":
-                int e = 666;
-                int f = 666;
-                System.out.println("e == f " + (e == f));
-                Integer c = 666;
-                Integer d = 666;
-                System.out.println("c == d " + (c == d));
-                Integer a = 42;
-                Integer b = 42;
-                System.out.println("a == b " + (a == b));
+//                double aaa=25623;
+//                JOptionPane.showMessageDialog(this, "intregul este="+Numere.doubleToString2Zecimale(aaa));
+//                aaa=25.626;
+//                JOptionPane.showMessageDialog(this, "intregul este="+Numere.doubleToString2Zecimale(aaa));
+//                aaa=25.625;
+//                JOptionPane.showMessageDialog(this, "intregul este="+Numere.doubleToString2Zecimale(aaa));
+//                String aaa="25623";
+//                int intregul=Numere.tryParseInteger(aaa);
+//                JOptionPane.showMessageDialog(this, "intregul este="+intregul);
+//                double dbl=Numere.tryParseDouble(aaa);
+//                JOptionPane.showMessageDialog(this, "dbl este="+dbl);
+//                //
+//                aaa="256.23";
+//                intregul=Numere.tryParseInteger(aaa);
+//                JOptionPane.showMessageDialog(this, "intregul este="+intregul);
+//                dbl=Numere.tryParseDouble(aaa);
+//                JOptionPane.showMessageDialog(this, "dbl este="+dbl);
+
+//                int e = 666;
+//                int f = 666;
+//                System.out.println("e == f " + (e == f));
+//                Integer c = 666;
+//                Integer d = 666;
+//                System.out.println("c == d " + (c == d));
+//                Integer a = 42;
+//                Integer b = 42;
+//                System.out.println("a == b " + (a == b));
                 //Teste teste = new Teste();
                 //teste.testFrameExecutie();
                 //teste.testCUICNP();
